@@ -10,7 +10,9 @@
     --ocean: #404BBF;
     --slate: #434455;
 }
-body {font-family: 'Roboto', 'Raleway', 'Montserrat', 'Poppins', sans-serif;
+body {font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    color: var(--slate)}
+    color: var(--slate);
+    background-color: var(--white);
+}
 header{background-color: var(--white);}
