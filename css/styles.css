@@ -16,3 +16,56 @@ body {font-family: 'Roboto', sans-serif;
     background-color: var(--white);
 }
 header{background-color: var(--white);}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--iris)
+}
+.logo-studio{
+    color: var(--navy-blue)
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);   
+}
+.nav-list-item > a {
+    text-decoration: none;
+    color: var(--navy-blue);
+}
+.nav-list-item>a:hover,
+.nav-list-item>a:focus{
+    color: var(--ocean);
+}
+.addresses{
+    font-style: normal;
+
+}
+.addresses > ul {
+    list-style: none;
+}
+.address-item{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate)
+}
+.address-item > a {
+    text-decoration: none;
+    color: var(--slate)
+}
+.address-item > a:hover,
+.address-item > a:focus
+{
+    color: var(--ocean);
+}
