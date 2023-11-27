@@ -1,7 +1,14 @@
 :root {
     --navy-blue: #2E2F42;
-    --white: #fff
-
+    --navy-blue-modal: #2E2F4266;
+    --white: #fff;
+    --cloud: #F4F4FD;
+    --cornflower: #E7E9FC;
+    --green: #31D0AA;
+    --iris: #4D5AE5
+    --light-slate: #8E8F99;
+    --ocean: #404BBF;
+    --slate: #434455;
 }
 body {font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
