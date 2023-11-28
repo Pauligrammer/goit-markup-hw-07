@@ -68,3 +68,49 @@ header{background-color: var(--white);}
     text-decoration: none;
     color: var(--slate)
 }
+.intro{
+    background-color:var(--navy-blue);
+}
+.main-header{
+    font-size:56px;
+    line-height:1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white)
+}
+.order-button{
+    background-color: var(--iris);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+.order-button:hover,
+.order-button:focus{
+    background-color: var(--ocean);
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+}
+.second-header{
+    font-weight:500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.list-header{
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing: 0.04em;
+    color: var(--navy-blue);
+}
+.list-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
