@@ -23,11 +23,17 @@ header{background-color: var(--white);}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
-    color: var(--iris)
+    color: var(--iris);
 }
 .logo-studio{
-    color: var(--navy-blue)
+    color: var(--navy-blue);
+}
+.link{
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: var(--ocean);
 }
 .nav-list{
     list-style: none;
@@ -43,10 +49,7 @@ header{background-color: var(--white);}
     text-decoration: none;
     color: var(--navy-blue);
 }
-.nav-list-item>a:hover,
-.nav-list-item>a:focus{
-    color: var(--ocean);
-}
+
 .addresses{
     font-style: normal;
 
@@ -63,9 +66,4 @@ header{background-color: var(--white);}
 .address-item > a {
     text-decoration: none;
     color: var(--slate)
-}
-.address-item > a:hover,
-.address-item > a:focus
-{
-    color: var(--ocean);
 }
