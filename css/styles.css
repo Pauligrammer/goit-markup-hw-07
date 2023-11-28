@@ -36,9 +36,6 @@ header{background-color: var(--white);}
 .link:focus{
     color: var(--ocean);
 }
-.nav-list{
-    list-style: none;
-}
 .nav-list-item{
     font-weight: 500;
     font-size: 16px;
@@ -95,17 +92,11 @@ header{background-color: var(--white);}
 .list{
     list-style: none;
 }
-.second-header{
-    font-weight:500;
+.list-header{
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-.list-header{
-    font-size:20px;
-    line-height:1.2;
-    letter-spacing: 0.04em;
     color: var(--navy-blue);
 }
 .list-text{
@@ -133,7 +124,7 @@ header{background-color: var(--white);}
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
 }
 .list-item{
     background-color: var(--white);
