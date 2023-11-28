@@ -150,3 +150,18 @@ header{background-color: var(--white);}
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
+.category-button{
+    background-color: var(--cloud);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+}
+.category-button:hover,
+.category-button:focus{
+    background-color: var(--ocean);
+    color: var(--white);
+    cursor: pointer;
+}
