@@ -114,3 +114,39 @@ header{background-color: var(--white);}
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+.description-header{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+.our-team-section{
+    background-color: var(--cloud);
+}
+.name-header{
+    color: var(--navy-blue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+.list-item{
+    background-color: var(--white);
+}
+.footer{
+    background-color: var(--navy-blue);
+}
+.logo-studio-footer{
+    color: var(--cloud);
+}
+.text-footer{
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
