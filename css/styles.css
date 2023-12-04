@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --navy-blue: #2E2F42;
     --navy-blue-modal: #2E2F4266;
@@ -10,12 +15,16 @@
     --ocean: #404BBF;
     --slate: #434455;
 }
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 body {font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: var(--slate);
     background-color: var(--white);
 }
-header{background-color: var(--white);}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -117,14 +126,8 @@ header{background-color: var(--white);}
 .our-team-section{
     background-color: var(--cloud);
 }
-.name-header{
-    color: var(--navy-blue);
+.center{
     text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 .list-item{
     background-color: var(--white);
