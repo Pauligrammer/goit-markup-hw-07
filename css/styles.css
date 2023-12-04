@@ -15,15 +15,28 @@
     --ocean: #404BBF;
     --slate: #434455;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--slate);
+    background-color: var(--white);
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
-body {font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    color: var(--slate);
-    background-color: var(--white);
+.header{
+    border-bottom: 1px solid var(--cornflower);
+}
+.header-box{
+   display: flex;
+   justify-content: space-between; 
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -34,6 +47,7 @@ body {font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--iris);
+    margin-right: 76px;
 }
 .logo-studio{
     color: var(--navy-blue);
@@ -45,12 +59,23 @@ body {font-family: 'Roboto', sans-serif;
 .link:focus{
     color: var(--ocean);
 }
+.nav-box{
+    display: flex;
+    align-items: center;
+}
+.header-list-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
 .nav-list-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);   
+    color: var(--navy-blue); 
+    display: inline-block;  
+    padding: 24px 0;
 }
 .nav-list-item > a {
     text-decoration: none;
@@ -68,7 +93,9 @@ body {font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate)
+    color: var(--slate);
+    display: inline-block;
+    padding: 24px 0;
 }
 .address-item > a {
     text-decoration: none;
@@ -76,9 +103,13 @@ body {font-family: 'Roboto', sans-serif;
 }
 .intro{
     background-color:var(--navy-blue);
+    padding: 188px 0; 
 }
 .main-header{
     font-size:56px;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: 316px;
     line-height:1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -92,14 +123,46 @@ body {font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white);
+    margin-left: 480px;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
 }
+
 .order-button:hover,
 .order-button:focus{
     background-color: var(--ocean);
     cursor: pointer;
 }
+.section{
+    padding: 120px 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.philo-list-box{
+    display: flex;
+    gap: 24px;
+}
 .list{
     list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.philo-list-item{
+    width:calc((1158px - 3 * 24px )/4)
 }
 .list-header{
     font-weight: 500;
@@ -107,6 +170,7 @@ body {font-family: 'Roboto', sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-bottom: 8px;
 }
 .list-text{
     font-size: 16px;
@@ -122,6 +186,14 @@ body {font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue);
+    margin-bottom: 72px;
+}
+.img-list{
+    display: flex;
+    gap: 24px;
+}
+.img-list-item{
+    width: calc((1158-2*24)/3)
 }
 .our-team-section{
     background-color: var(--cloud);
@@ -134,6 +206,7 @@ body {font-family: 'Roboto', sans-serif;
 }
 .footer{
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 .logo-studio-footer{
     color: var(--cloud);
@@ -143,6 +216,7 @@ body {font-family: 'Roboto', sans-serif;
     line-height:1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
+    max-width: 264px;
 }
 .category-button{
     background-color: var(--cloud);
