@@ -220,7 +220,7 @@ img {
     border-top: none
 }
 .team-name{
-    padding: 32px 16px 32px;
+    padding: 32px 0;
 }
 .footer{
     background-color: var(--navy-blue);
