@@ -50,6 +50,9 @@ img {
     display: inline-block;
     margin-right: 76px;
 }
+.logo-box{
+    padding: 24px 0;
+}
 .logo-studio{
     color: var(--navy-blue);
 }
@@ -145,6 +148,9 @@ img {
 .section{
     padding: 120px 0;
 }
+.section-portfolio{
+    padding: 96px 0 120px 0;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -212,10 +218,11 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 .team-name{
-    padding: 32px 0;
+    padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border: 1px solid var(--cornflower);
 }
 .footer{
     background-color: var(--navy-blue);
@@ -237,12 +244,16 @@ img {
 .category-button{
     background-color: var(--cloud);
     color: var(--iris);
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
 }
 .category-button:hover,
 .category-button:focus{
     background-color: var(--ocean);
     color: var(--white);
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .button-box{
     display: flex;
@@ -253,4 +264,5 @@ img {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+    row-gap: 48px;
 }
