@@ -80,7 +80,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--navy-blue); 
     display: inline-block;  
-    padding: 24px 0;
 }
 .nav-list-item > a {
     text-decoration: none;
@@ -99,7 +98,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--slate);
     display: inline-block;
-    padding: 24px 0;
 }
 .address-item > a {
     text-decoration: none;
@@ -146,6 +144,9 @@ img {
 }
 .section{
     padding: 120px 0;
+}
+.third-section{
+    padding-top: 0;
 }
 .section-portfolio{
     padding: 96px 0 120px 0;
