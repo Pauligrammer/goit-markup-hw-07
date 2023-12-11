@@ -14,6 +14,7 @@
     --light-slate: #8E8F99;
     --ocean: #404BBF;
     --slate: #434455;
+    --grey: rgba(46, 47, 66, 0.70);
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -104,7 +105,11 @@ img {
     color: var(--slate)
 }
 .intro{
-    background-color:var(--navy-blue);
+    background-color: var(--navy-blue);
+    background-image: linear-gradient(var(--grey), var(--grey)), url(/images/people-office-table.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0; 
 }
 .main-header{
