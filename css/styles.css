@@ -300,7 +300,7 @@ img {
     gap: 24px;
 }
 .logo-container{
-    width: calc(100%-5*24px/6);
+    width: calc((100%-120px)/6);
     height: 88px;
     display: flex;
 }
@@ -309,6 +309,8 @@ img {
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
+    color: var(--light-slate);
     padding: 16px 32px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
@@ -319,6 +321,10 @@ img {
     fill: var(--ocean);
     border: 1px solid var(--ocean);
     border-radius: 4px;
+    color: var(--ocean)
+}
+.custom-fill{
+    fill: currentcolor;
 }
 
 .footer{
@@ -354,11 +360,10 @@ img {
 }
 .footer-flex-box{
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 .footer-flex-box-1 {
-    gap: 120px;
+    margin-right: 120px;
 }
 .social-media-footer {
     display: flex;
