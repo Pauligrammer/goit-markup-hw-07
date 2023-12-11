@@ -317,6 +317,7 @@ img {
     border: 1px solid var(--light-slate);
     border-radius: 4px;
     fill: var(--light-slate);
+    width: 100%;
 }
 .logo-customer-link:hover,
 .logo-customer-link:focus{
