@@ -201,6 +201,21 @@ img {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+.social-media-icon{
+    display: flex;
+    background-color: var(--iris);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
 .description-header{
     font-size: 36px;
     font-weight: 700;
