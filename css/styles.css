@@ -180,13 +180,20 @@ img {
 .philo-list-item{
     width:calc((1158px - 3 * 24px )/4)
 }
+.icon-container{
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+    background-color: var(--cloud);
+    border-radius: 4px;
+}
 .list-header{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
+    margin: 8px 0;
 }
 .list-text{
     font-size: 16px;
