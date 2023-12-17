@@ -451,13 +451,21 @@ img {
     height: 24px;
     border-radius: 50%;
     padding: 8px;
-    color: var(--cornflower);
+    background-color: var(--cornflower);
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
     border: 1px #0000001A;
     position: absolute;
-    left: 90%;
-    top: 2%;
+    left: 360px;
+    top: 24px;
+    fill: var(--navy-blue);
 }
+.close-btn:hover,
+.close-btn:focus{
+    fill: var(--white);
+    background-color: var(--ocean);
+    cursor: pointer;
+}
+
