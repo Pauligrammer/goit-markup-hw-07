@@ -415,6 +415,27 @@
             </li>
           </ul>
         </div>
+        <div class="sub-box">
+          <p class="text-footer">Subscribe</p>
+          <form class="subscribe-form">
+            <label for="sub-email">
+              <input
+                type="email"
+                id="sub-email"
+                name="sub-email"
+                placeholder="E-mail"
+                class="sub-email"
+                required
+              />
+            </label>
+            <button type="submit" class="sub-btn">
+              Subscribe
+              <svg width="24" height="24" class="send-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-bg is-hidden" data-modal>
@@ -445,7 +466,7 @@
             <label for="phone-number" class="label-text">Phone</label>
             <div class="input-div">
               <input
-                type="text"
+                type="tel"
                 name="phone-number"
                 id="phone-number"
                 class="input-box form-textbox"
@@ -460,7 +481,7 @@
             <label for="email" class="label-text">Email</label>
             <div class="input-div">
               <input
-                type="text"
+                type="email"
                 name="email"
                 id="email"
                 class="input-box form-textbox"
@@ -472,32 +493,34 @@
             </div>
           </div>
           <div class="label-div">
-            <label for="email" class="label-text">Comment</label>
+            <label for="comment" class="label-text">Comment</label>
             <textarea
               name="comment"
+              id="comment"
               placeholder="Text input"
               class="form-textbox comment-div"
             ></textarea>
           </div>
-          <div class="consent-div">
+          <div class="consent-wrap">
             <input
               type="checkbox"
-              name="privacy-policy"
-              id="privacy-policy"
-              class="visually-hidden"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
               required
+              class="visually-hidden user-privacy"
             />
-            <label for="privacy-policy" class="">
-              <span>
-                <svg height="10" width="10">
+            <label for="user-privacy" class="consent-label">
+              <span class="consent-box">
+                <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-Checkmark"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="privacy-policy">Privacy Policy</a>
+              <a href="" class="policy-link">Privacy Policy</a>
             </label>
           </div>
-          <button type="submit" class="send-btn">Send</button>
+          <button type="submit" class="button send-btn">Send</button>
         </form>
       </div>
     </div>
