@@ -551,6 +551,9 @@ img {
 .label-div{
     margin-bottom: 8px;
 }
+.label-div-comment{
+    margin-bottom: 16px;
+}
 .label-text{
     color: var(--light-slate);
     font-size: 12px;
@@ -586,6 +589,8 @@ img {
 .comment-div{
     height: 120px;
     padding: 8px 16px;
+    color: rgba(46, 47, 66, 0.4);
+    resize: none;
 }
 .comment-div::placeholder {
     color: rgba(46, 47, 66, 0.4);
@@ -633,7 +638,7 @@ img {
     fill: var(--cloud);
 }
 .policy-link{
-    color: var(--ocean);
+    color: var(--iris);
 }
 .sub-email{
     padding-left: 16px;
@@ -655,6 +660,7 @@ img {
 .sub-btn{
     background-color: var(--iris);
     color: var(--white);
+    cursor: pointer;
     border: none;
     border-radius: 4px;
     min-width: 165px;
@@ -676,6 +682,7 @@ img {
     font-weight: 500;
     margin-bottom: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 .subscribe-form{
     display: flex;
