@@ -127,7 +127,7 @@ img {
 }
 .intro{
     background-color: var(--navy-blue);
-    background-image: linear-gradient(var(--grey), var(--grey)), url(/images/people-office-table.jpg);
+    background-image: linear-gradient(var(--grey), var(--grey)), url(../images/people-office-table.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
