@@ -1,2 +1,2 @@
-https://pauligrammer.github.io/goit-markup-hw-06/
-HW6
+https://pauligrammer.github.io/goit-markup-hw-07/
+HW
