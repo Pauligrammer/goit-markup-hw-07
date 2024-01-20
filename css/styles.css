@@ -210,7 +210,7 @@ button {
 .list-box{
     display: flex;
     gap: 72px;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .list{
     list-style: none;
@@ -292,7 +292,7 @@ button {
 }
 .img-list{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 72px;
     justify-content: center;
     align-items: center;
@@ -403,10 +403,28 @@ button {
 }
 .footer-flex-box{
     display: flex;
-    flex-flow: column wrap;
-    column-gap: 72px;
+    flex-wrap: wrap;
+    gap: 72px;
     align-items: center;
     justify-content: center;
+}
+.footer-flex-box-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-flex-box-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .social-media-footer {
     display: flex;
@@ -662,6 +680,7 @@ button {
     letter-spacing: 0.04em;
     color: var(--white);
     display: flex;
+    width: 398px;
 }
 .sub-email::placeholder{
     color: var(--white);
@@ -696,7 +715,10 @@ button {
 .subscribe-form{
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 /*mobile menu */
 
 .mob-header-box {
@@ -747,7 +769,7 @@ button {
     display:  none;
 }
 .close-btn-left{
-    left: 380px;
+    left: 456px;
 }
 .mob-nav-txt{
     font-size: 36px;
@@ -787,6 +809,14 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.ad-header-list-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+.address-item>a {
+    padding: 0;
+}
 .mob-header-box {
     display: none;
 }
@@ -802,12 +832,9 @@ button {
     max-width: 1440px;
 }
 
-.order-button {
-    margin-left: 480px;
-}
-
 .list-box {
     gap: 24px;
+    justify-content: center;
 }
 
 .philo-list-item {
@@ -815,15 +842,7 @@ button {
 }
 
 .icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-    height: 112px;
-    padding: 24px 100px;
-    background-color: var(--cloud);
-    border-radius: 4px;
-    margin-bottom: 8px
+    display: none;
 }
 
 .list-header {
@@ -838,6 +857,7 @@ button {
 .img-list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .img-list-item {
@@ -859,14 +879,22 @@ button {
 .footer-flex-box {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .footer-flex-box-1 {
-    margin-right: 120px;
+    align-items: flex-start;
 }
-
-.footer-flex-box-2 {
-    margin-right: 80px;
+.sub-box{
+    align-items: flex-start;
+}
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.sub-email{
+    width: 264px;
 }
 }
 
@@ -880,6 +908,14 @@ button {
     }
 .main-container{
     display: block;
+}
+.ad-header-list-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.address-item>a {
+    padding: 24px 0;
 }
 .main-header {
     font-size: 56px;
@@ -897,6 +933,7 @@ button {
 .list-box {
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
 }
 
 .philo-list-item {
@@ -924,10 +961,12 @@ button {
 }
 .third-section {
     padding-top: 0;
+    display: flex;
 }
 .img-list {
     display: flex;
     gap: 24px;
+    flex-wrap: nowrap;
 }
 
 .img-list-item {
@@ -947,12 +986,16 @@ button {
 .footer-flex-box {
     display: flex;
     align-items: baseline;
+    flex-wrap: nowrap;
 }
-.footer-flex-box-1 {
-    margin-right: 120px;
-}
+
 
 .footer-flex-box-2 {
     margin-right: 80px;
+}
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
 }
 }
